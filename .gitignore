@@ -1,0 +1,65 @@
+# Ignore target directory (Rust build artifacts)
+**/target/
+
+# Ignore build artifacts and executables
+**/*.exe
+**/*.dll
+**/*.so
+**/*.dylib
+**/*.bin
+
+# Ignore Cargo.lock for libraries (optional, but keep for binaries)
+**/Cargo.lock
+
+# Ignore temporary files
+**/*.log
+**/*.tmp
+**/*.bak
+**/*.swp
+**/*~
+
+# Ignore IDE/editor-specific files
+# VSCode
+.vscode/
+**/.vscode/
+
+# JetBrains IDEs (CLion, IntelliJ, etc.)
+.idea/
+**/.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Node modules (if any JavaScript integration exists)
+**/node_modules/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.old
+*.orig
+
+# Python virtual environments (if any Python scripts)
+**/venv/
+**/__pycache__/
+**/*.pyc
+
+# SQLite database files (if generated during runtime)
+**/*.db
+**/*.sqlite3
+
+# Environment variable files
+**/.env
+**/.env.*
+
+# Rust Clippy/coverage files
+**/clippy.lints
+**/coverage/
+
+# Log and debug output
+**/debug.log
+**/logs/
